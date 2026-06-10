@@ -38,8 +38,13 @@ Document at least 3 bugs you found. Add rows as needed.
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+    I used Claude
+
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+    The AI informed me the function get_range_for_difficulty values were a bit off. I did notice that too, I havent altered the code but I have a note in my mind to look at that and see what I can do to fix that issue.
+
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+    I was having troubling running pytest in the terminal so the AI suggested I use python -m pytest, where I got an error basically stating I dont have python. The issue was I have python3 not python so the command was not correct.
 
 ---
 
