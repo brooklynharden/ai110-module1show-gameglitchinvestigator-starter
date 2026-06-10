@@ -51,9 +51,14 @@ Document at least 3 bugs you found. Add rows as needed.
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
+    When I tested it during running the game. I altered the ranges for difficulty levels and I seen that what I changed matched with the app. There are still changes to be made with the logic of the same but that was a simple and quick one for the time being
+
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
+    I ran a test to check whether a guess was too low, too high or the winning guess. It showed me consistent failure so I had to look into the function check_guess and see why it was not allowing those test to pass.
+
 - Did AI help you design or understand any tests? How?
+    Yes, AI told me that the try/except was the issue and why then stated to fix the logic in logic_utils.py and when I did, I reran the code and the tests passed.
 
 ---
 
